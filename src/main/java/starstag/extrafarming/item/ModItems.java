@@ -15,6 +15,9 @@ public class ModItems {
 
     public static final Item FARMING_SACK = registerItem("farming_sack", new Item(new Item.Settings().maxCount(1)));
 
+    public static final Item COMPOST = registerItem("farming_sack", new Item(new Item.Settings()))
+
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(ExtraFarming.MOD_ID, name), item);
     }

@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.SWEET_POTATO);
                         entries.add(ModItems.FARMING_SACK);
+                        entries.add(ModItems.COMPOST);
                     }).build());
 
 
