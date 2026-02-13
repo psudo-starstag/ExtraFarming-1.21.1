@@ -3,6 +3,8 @@
   "item.extrafarming.farming_sack": "Farming Sack",
   "item.extrafarming.compost": "Compost",
 
-  "itemgroup.extrafarming.extra_farming_items": "Extra Farming Items"
+  "itemgroup.extrafarming.extra_farming_items": "Extra Farming Items",
+
+  "attribute.name.generic.crop_fortune": "GenericCropFortune"
 
 }

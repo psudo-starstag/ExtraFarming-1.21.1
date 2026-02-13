@@ -3,19 +3,20 @@ package starstag.extrafarming.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.component.type.FoodComponents;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import starstag.extrafarming.ExtraFarming;
+import starstag.extrafarming.item.custom.FarmingSackItem;
 
 public class ModItems {
 
     public static final Item SWEET_POTATO = registerItem("sweet_potato", new Item(new Item.Settings().food(FoodComponents.POTATO)));
 
-    public static final Item FARMING_SACK = registerItem("farming_sack", new Item(new Item.Settings().maxCount(1)));
+    public static final Item FARMING_SACK = registerItem("farming_sack", new FarmingSackItem(new Item.Settings().maxCount(1)));
 
-    public static final Item COMPOST = registerItem("compost", new Item(new Item.Settings()))
+    public static final Item COMPOST = registerItem("compost", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
